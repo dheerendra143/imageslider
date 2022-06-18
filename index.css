@@ -1,0 +1,29 @@
+.image-slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    text-align: center;
+}
+.image-slider__area {
+    display: flex;
+    width: 200px;
+    overflow: hidden;
+    border: 2px solid lightgray;
+    margin: 5px;
+}
+.image-slider__wp {
+    display: flex;
+    transform: translate(0px, 0px);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+.image-slider__item {
+    text-align: center;
+}
+.image-slider__item img {
+    width: 200px;
+    height: 300px;
+}
